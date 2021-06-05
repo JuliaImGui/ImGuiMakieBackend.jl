@@ -1,0 +1,20 @@
+name = "ImGuiMakieBackend"
+uuid = "de3ab5a1-d0a9-4fcc-afa2-4335fa2cbda2"
+authors = ["Yupei Qi <qiyupei@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+LibCImGui = "9be01004-c4f5-478b-abeb-cb32b114cf5e"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+GLMakie = "0.3"
+LibCImGui = "1.82.2"
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
